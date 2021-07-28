@@ -1,0 +1,8 @@
+{
+  "project_name": "django_cortx_project",
+  "repo_name": "django_cortx_repo",
+  "author_name": "Your name",
+  "email": "Your email",
+  "description": "A short description of the project",
+  "year": "Current year"
+}
