@@ -1,0 +1,1 @@
+# cookiecuter-django-cortx
