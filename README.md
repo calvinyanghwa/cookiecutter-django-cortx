@@ -2,6 +2,8 @@
 
 A simple [cookiecutter](https://github.com/cookiecutter/cookiecutter) template that fuses Django and CORTX as the key object storage solution, into one full stack application.
 
+Integration video link: https://vimeo.com/581760289
+
 ### Motivations
 
 Using Cookiecutter, the community is able to automatically spin up a Django project that is integrated with CORTX, with an inbuilt file upload functionality.
@@ -24,7 +26,7 @@ cookiecutter <url> # TODO
 pip install -r requirements/local.txt
 ```
 
-3. Rename the `.env.example` file to `.env` (**IMPORTANT** so that it doesn't get committed into git):
+3. Rename the `.env.example` file to `.env` (**IMPORTANT** so that it doesn't get committed into git)
 
 4. Apply migrations:
 
@@ -55,9 +57,3 @@ This project was submitted for Seagate CORTX Integration Challenge: Singapore.
 - Lee Yu Jing
 - Mitra Hadesh
 - Teo Zhi Wei
-
-## TODOs
-
-- Add more functionality into the File Upload API.
-- Make it look prettier on the admin interface.
-- Update the URL in the README above.
