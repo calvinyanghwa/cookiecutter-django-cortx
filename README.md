@@ -4,9 +4,9 @@ A simple [cookiecutter](https://github.com/cookiecutter/cookiecutter) template t
 
 ### Motivations
 
-Using Cookiecutter, the community is able to automatically spin up a Django project that is integrated with CORTX and has prebuilt file upload functionalities.
+Using Cookiecutter, the community is able to automatically spin up a Django project that is integrated with CORTX, with an inbuilt file upload functionality.
 
-With Django as one of the top Python-based web frameworks, cookiecutter templates are able to lower the barrier of entry for integrating with CORTX as the object storage solution of choice. We also hope that future solutions will be able to leverage on this cookiecutter template when they want to integrate CORTX with their Django project.
+With Django as one of the top Python-based web frameworks, cookiecutter templates are able to lower the barrier of entry for integrating with CORTX as the object storage solution of choice. We also hope that future solutions can leverage on this cookiecutter template when they want to integrate CORTX with their Django project.
 
 ## Installation
 
@@ -24,9 +24,7 @@ cookiecutter <url> # TODO
 pip install -r requirements/local.txt
 ```
 
-3. Set environment variables for CORTX (**IMPORTANT**):
-
-In `.env` found in the root file, fill in `ACCESS_KEY_ID`, `SECRET_ACCESS_KEY`, `BUCKET_NAME` and `CORTX_ENDPOINT_URL` with your own values.
+3. Rename the `.env.example` file to `.env` (**IMPORTANT** so that it doesn't get committed into git):
 
 4. Apply migrations:
 
